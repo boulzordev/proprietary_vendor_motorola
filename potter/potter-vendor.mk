@@ -127,6 +127,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/potter/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
@@ -887,6 +893,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/motorola/potter/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/potter/proprietary/lib/libjson.so:system/lib/libjson.so \
+    vendor/motorola/potter/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
@@ -912,5 +919,16 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
-    libtime_genoff
+    libtime_genoff \
+    atfwd \
+    cneapiclient \
+    com.qti.dpmframework \
+    com.quicinc.cne \
+    ConnectivityExt \
+    dpmapi \
+    QPerformance \
+    qti-vzw-ims-internal \
+    rcsimssettings \
+    tcmclient
+
 
